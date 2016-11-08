@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\logo.png",
+        "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    }
+]

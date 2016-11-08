@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\values-v13\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 277
+                    }
+                }
+            }
+        ]
+    }
+]
