@@ -1,7 +1,4 @@
-#Tue Nov 08 18:00:25 SGT 2016
-base.0=C\:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cdee62736420f8b749ec682e748c98a8e6be7ed0
-renamed.1=classes2.dex
+#Fri Dec 02 15:33:00 CST 2016
+base.0=F\:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5f936b91e9c1c15fb7ed565de58da7a7a3d4e50d\\classes.dex
-base.1=C\:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5f936b91e9c1c15fb7ed565de58da7a7a3d4e50d
-file.0=C\:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cdee62736420f8b749ec682e748c98a8e6be7ed0\\classes.dex
+file.0=F\:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

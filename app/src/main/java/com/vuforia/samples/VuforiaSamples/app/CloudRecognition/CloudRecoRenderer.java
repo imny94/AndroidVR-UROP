@@ -31,7 +31,7 @@ import com.vuforia.samples.SampleApplication.SampleAppRendererControl;
 import com.vuforia.samples.SampleApplication.SampleApplicationSession;
 import com.vuforia.samples.SampleApplication.utils.CubeShaders;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
-import com.vuforia.samples.SampleApplication.utils.Teapot;
+import com.vuforia.samples.SampleApplication.utils.banana;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 
 
@@ -51,7 +51,7 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
     
     private Vector<Texture> mTextures;
     
-    private Teapot mTeapot;
+    private banana mbanana;
     
     private CloudReco mActivity;
 
@@ -145,7 +145,7 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
             "modelViewProjectionMatrix");
         texSampler2DHandle = GLES20.glGetUniformLocation(shaderProgramID,
             "texSampler2D");
-        mTeapot = new Teapot();
+        mbanana = new banana(mActivity.getResources().getAssets());
     }
 
 
@@ -207,9 +207,9 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         // activate the shader program and bind the vertex/normal/tex coords
         GLES20.glUseProgram(shaderProgramID);
         GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT, false,
-            0, mTeapot.getVertices());
+            0, mbanana.getVertices());
         GLES20.glVertexAttribPointer(textureCoordHandle, 2, GLES20.GL_FLOAT,
-            false, 0, mTeapot.getTexCoords());
+            false, 0, mbanana.getTexCoords());
         
         GLES20.glEnableVertexAttribArray(vertexHandle);
         GLES20.glEnableVertexAttribArray(textureCoordHandle);
@@ -224,9 +224,9 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         GLES20.glUniformMatrix4fv(mvpMatrixHandle, 1, false,
             modelViewProjection, 0);
         
-        // finally draw the teapot
-        GLES20.glDrawElements(GLES20.GL_TRIANGLES, mTeapot.getNumObjectIndex(),
-            GLES20.GL_UNSIGNED_SHORT, mTeapot.getIndices());
+        // finally draw the banana
+        GLES20.glDrawElements(GLES20.GL_TRIANGLES, mbanana.getNumObjectIndex(),
+            GLES20.GL_UNSIGNED_SHORT, mbanana.getIndices());
         
         // disable the enabled arrays
         GLES20.glDisableVertexAttribArray(vertexHandle);

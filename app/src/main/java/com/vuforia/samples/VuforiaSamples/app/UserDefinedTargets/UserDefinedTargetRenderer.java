@@ -31,7 +31,7 @@ import com.vuforia.samples.SampleApplication.SampleAppRendererControl;
 import com.vuforia.samples.SampleApplication.SampleApplicationSession;
 import com.vuforia.samples.SampleApplication.utils.CubeShaders;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
-import com.vuforia.samples.SampleApplication.utils.Teapot;
+import com.vuforia.samples.SampleApplication.utils.banana;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 
 
@@ -55,7 +55,7 @@ public class UserDefinedTargetRenderer implements GLSurfaceView.Renderer, Sample
     // Constants:
     static final float kObjectScale = 3.f;
     
-    private Teapot mTeapot;
+    private banana mbanana;
     
     // Reference to main activity
     private UserDefinedTargets mActivity;
@@ -161,9 +161,9 @@ public class UserDefinedTargetRenderer implements GLSurfaceView.Renderer, Sample
             GLES20.glUseProgram(shaderProgramID);
             
             GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT,
-                false, 0, mTeapot.getVertices());
+                false, 0, mbanana.getVertices());
             GLES20.glVertexAttribPointer(textureCoordHandle, 2,
-                GLES20.GL_FLOAT, false, 0, mTeapot.getTexCoords());
+                GLES20.GL_FLOAT, false, 0, mbanana.getTexCoords());
             
             GLES20.glEnableVertexAttribArray(vertexHandle);
             GLES20.glEnableVertexAttribArray(textureCoordHandle);
@@ -175,8 +175,8 @@ public class UserDefinedTargetRenderer implements GLSurfaceView.Renderer, Sample
                 modelViewProjection, 0);
             GLES20.glUniform1i(texSampler2DHandle, 0);
             GLES20.glDrawElements(GLES20.GL_TRIANGLES,
-                mTeapot.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
-                mTeapot.getIndices());
+                mbanana.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
+                mbanana.getIndices());
             
             GLES20.glDisableVertexAttribArray(vertexHandle);
             GLES20.glDisableVertexAttribArray(textureCoordHandle);
@@ -194,7 +194,7 @@ public class UserDefinedTargetRenderer implements GLSurfaceView.Renderer, Sample
     {
         Log.d(LOGTAG, "initRendering");
         
-        mTeapot = new Teapot();
+        mbanana = new banana(mActivity.getResources().getAssets());
         
         // Define clear color
         GLES20.glClearColor(0.0f, 0.0f, 0.0f, Vuforia.requiresAlpha() ? 0.0f

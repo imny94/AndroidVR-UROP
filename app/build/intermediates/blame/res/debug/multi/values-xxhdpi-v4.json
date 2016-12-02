@@ -1,5 +1,48 @@
 [
     {
+        "outputFile": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 47,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 48,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 48,
+                        "endOffset": 152
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
         "map": [
             {

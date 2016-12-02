@@ -38,7 +38,7 @@ import com.vuforia.samples.SampleApplication.SampleApplicationSession;
 import com.vuforia.samples.SampleApplication.utils.CubeShaders;
 import com.vuforia.samples.SampleApplication.utils.LineShaders;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
-import com.vuforia.samples.SampleApplication.utils.Teapot;
+import com.vuforia.samples.SampleApplication.utils.banana;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 
 
@@ -55,7 +55,7 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
     
     private Vector<Texture> mTextures;
     
-    private Teapot mTeapot = new Teapot();
+    private banana mbanana = new banana(mActivity.getResources().getAssets());
     
     // OpenGL ES 2.0 specific (3D model):
     private int shaderProgramID = 0;
@@ -73,7 +73,7 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
     private int vbVertexHandle = 0;
     
     // Constants:
-    static private float kTeapotScale = 3.f;
+    static private float kbananaScale = 3.f;
 
     // Define the coordinates of the virtual buttons to render the area of action,
     // this values are the same as the wood dataset
@@ -224,7 +224,7 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
             float[] modelViewProjection = new float[16];
             Matrix.multiplyMM(modelViewProjection, 0, projectionMatrix, 0, modelViewMatrix, 0);
             
-            // Set the texture used for the teapot model:
+            // Set the texture used for the banana model:
             int textureIndex = 0;
             
             float vbVertices[] = new float[imageTargetResult
@@ -348,8 +348,8 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
             Texture thisTexture = mTextures.get(textureIndex);
             
             // Scale 3D model
-            Matrix.scaleM(modelViewMatrix, 0, kTeapotScale, kTeapotScale,
-                kTeapotScale);
+            Matrix.scaleM(modelViewMatrix, 0, kbananaScale, kbananaScale,
+                kbananaScale);
             
             float[] modelViewProjectionScaled = new float[16];
             Matrix.multiplyMM(modelViewProjectionScaled, 0, projectionMatrix, 0, modelViewMatrix, 0);
@@ -358,9 +358,9 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
             GLES20.glUseProgram(shaderProgramID);
             
             GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT,
-                false, 0, mTeapot.getVertices());
+                false, 0, mbanana.getVertices());
             GLES20.glVertexAttribPointer(textureCoordHandle, 2,
-                GLES20.GL_FLOAT, false, 0, mTeapot.getTexCoords());
+                GLES20.GL_FLOAT, false, 0, mbanana.getTexCoords());
             
             GLES20.glEnableVertexAttribArray(vertexHandle);
             GLES20.glEnableVertexAttribArray(textureCoordHandle);
@@ -372,8 +372,8 @@ public class VirtualButtonRenderer implements GLSurfaceView.Renderer, SampleAppR
                 modelViewProjectionScaled, 0);
             GLES20.glUniform1i(texSampler2DHandle, 0);
             GLES20.glDrawElements(GLES20.GL_TRIANGLES,
-                mTeapot.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
-                mTeapot.getIndices());
+                mbanana.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
+                mbanana.getIndices());
             
             GLES20.glDisableVertexAttribArray(vertexHandle);
             GLES20.glDisableVertexAttribArray(textureCoordHandle);

@@ -4,7 +4,15 @@
         "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\anim\\bottom_up.xml"
     },
     {
+        "merged": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
+        "source": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    },
+    {
         "merged": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
         "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_down.xml",
+        "source": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\anim\\bottom_down.xml"
     }
 ]

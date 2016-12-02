@@ -4,7 +4,15 @@
         "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
     },
     {
+        "merged": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo.png",
+        "source": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo.png",
         "source": "C:\\Users\\nicholas\\AppData\\Local\\Android\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples-6-0-120\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon.png",
+        "source": "F:\\NVPACK\\vuforia-sdk-android-6-0-117\\samples\\VuforiaSamples\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
     }
 ]
